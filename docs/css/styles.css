@@ -1,16 +1,14 @@
 
-.card {
+.game-card {
     width: 500px;
+    height: 500px;
+    margin: 100px;
 
-    /* shadow */
-    -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999;
-            box-shadow: 0 0 30px 5px #999;
-    /* center */
     display:block;
     margin:auto;
 }
 
-.card-small {
-    width: 100px;
+.game-card-small img {
+    width: 50px;
+    height: 50px;
 }
