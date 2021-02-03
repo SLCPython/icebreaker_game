@@ -1,26 +1,49 @@
 var CHOICES = [];
 
-var CHOICES_CIRCLES_RED = [
-    "circle_fill_red.svg",
-    "circle_open_red.svg",
-//    "circle_strip_red.svg",
+var CHOICES_ARROW = [
+    "arrow_fill_blue.svg",
+    "arrow_fill_green.svg",
+    "arrow_fill_red.svg",
+    "arrow_open_blue.svg",
+    "arrow_open_green.svg",
+    "arrow_open_red.svg",
 ];
-var CHOICES_CIRCLES_BLUE = [
+
+var CHOICES_CIRCLE = [
     "circle_fill_blue.svg",
-    "circle_open_blue.svg",
-//    "circle_strip_blue.svg",
-];
-var CHOICES_CIRCLES_GREEN = [
     "circle_fill_green.svg",
+    "circle_fill_red.svg",
+    "circle_open_blue.svg",
     "circle_open_green.svg",
-//"circle_strip_green.svg",
+    // "circle_open_red.svg",
+    // "circle_strip_blue.svg",
+    // "circle_strip_green.svg",
+    // "circle_strip_red.svg",
+];
+
+var CHOICES_SQUARE = [
+    "square_fill_blue.svg",
+    "square_fill_green.svg",
+    "square_fill_red.svg",
+    "square_open_blue.svg",
+    "square_open_green.svg",
+    "square_open_red.svg",
+];
+
+var CHOICES_STAR = [
+    "star_fill_blue.svg",
+    "star_fill_green.svg",
+    "star_fill_red.svg",
+    "star_open_blue.svg",
+    "star_open_green.svg",
+    "star_open_red.svg",
 ];
 
 CHOICES = CHOICES.concat(
-    CHOICES_CIRCLES_RED,
-    CHOICES_CIRCLES_BLUE,
-    CHOICES_CIRCLES_GREEN,
-
+    CHOICES_ARROW,
+    CHOICES_CIRCLE,
+    CHOICES_SQUARE,
+    CHOICES_STAR,
 );
 
 var update_your_card = function () {
@@ -38,10 +61,33 @@ var update_your_card = function () {
 }
 
 
+var format_choice_html = function(choice) {
+    // return '<div class="col game-card-small"><img src="img/' + choice + '"/>' + choice + '</div>';
+    return '<div class="col game-card-small"><img src="img/' + choice + '"/></div>';
+
+}
+
 var show_choices = function() {
-    CHOICES.forEach(choice => {
-        var container = document.getElementById("game-card-options-circles");
-        container.innerHTML += '<div class="col game-card-small"><img src="img/' + choice + '"/>'+choice+'</div>'
-    });
+    CHOICES_CIRCLE.forEach(choice => {
+        document
+        .getElementById("game-card-options-circles")
+        .innerHTML += format_choice_html(choice)
+    })
+    CHOICES_SQUARE.forEach(choice => {
+        document
+        .getElementById("game-card-options-squares")
+        .innerHTML += format_choice_html(choice)
+    })
+    CHOICES_STAR.forEach(choice => {
+        document
+        .getElementById("game-card-options-stars")
+        .innerHTML += format_choice_html(choice)
+    })
+    CHOICES_ARROW.forEach(choice => {
+        document
+        .getElementById("game-card-options-arrows")
+        .innerHTML += format_choice_html(choice)
+    })
+
 };
 
