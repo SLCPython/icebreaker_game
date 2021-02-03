@@ -114,7 +114,7 @@
          style="stroke:none;fill:none" />
       <circle
          r="65.042191"
-         style="opacity:0.794212;mix-blend-mode:normal;fill:url(#Strips1_1);fill-opacity:1.0;stroke:#ff0f08;stroke-width:13.2292;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.501543;stroke-opacity:1"
+         style="opacity:1;mix-blend-mode:normal;fill:url(#Strips1_1);fill-opacity:1.0;stroke:#ff0f08;stroke-width:13.2292;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.501543;stroke-opacity:1"
          id="circle2935"
          cx="132.29167"
          cy="132.29167" />
