@@ -15,7 +15,7 @@ var CHOICES_CIRCLE = [
     "circle_fill_red.svg",
     "circle_open_blue.svg",
     "circle_open_green.svg",
-    // "circle_open_red.svg",
+    "circle_open_red.svg",
     // "circle_strip_blue.svg",
     // "circle_strip_green.svg",
     // "circle_strip_red.svg",
