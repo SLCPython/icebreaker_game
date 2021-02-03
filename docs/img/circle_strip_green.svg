@@ -24,7 +24,7 @@
       <stop
          id="stop2939"
          offset="0"
-         style="stop-color:#ff0f08;stop-opacity:1;" />
+         style="stop-color:#219E6B;stop-opacity:1;" />
     </linearGradient>
     <pattern
        patternTransform="matrix(37.795276,0,0,37.795276,-229.17127,-229.17127)"
@@ -41,7 +41,7 @@
        inkscape:stockid="Stripes 1:1"
        inkscape:isstock="true">
       <rect
-         style="fill:#ff0f08;stroke:none"
+         style="fill:#219E6B;stroke:none"
          x="0"
          y="-0.5"
          width="1"
@@ -59,7 +59,7 @@
          cy="270.82877"
          cx="270.82877"
          id="path12"
-         style="opacity:0.45;fill:url(#pattern2931);fill-opacity:1;stroke:#ff0f08;stroke-width:50;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.501543;stroke-opacity:1" />
+         style="opacity:0.45;fill:url(#pattern2931);fill-opacity:1;stroke:#219E6B;stroke-width:50;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.501543;stroke-opacity:1" />
     </pattern>
   </defs>
   <sodipodi:namedview
@@ -102,7 +102,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <g
-       style="fill:url(#Strips1_1);stroke:#ff0f08;stroke-opacity:1;stroke-width:13.22916667;stroke-miterlimit:4;stroke-dasharray:none;opacity:1;fill-opacity:1.0"
+       style="fill:url(#Strips1_1);stroke:#219E6B;stroke-opacity:1;stroke-width:13.22916667;stroke-miterlimit:4;stroke-dasharray:none;opacity:1;fill-opacity:1.0"
        id="g15">
       <rect
          id="rect2933"
@@ -114,7 +114,7 @@
          style="stroke:none;fill:none" />
       <circle
          r="65.042191"
-         style="opacity:0.794212;mix-blend-mode:normal;fill:url(#Strips1_1);fill-opacity:1.0;stroke:#ff0f08;stroke-width:13.2292;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.501543;stroke-opacity:1"
+         style="opacity:0.794212;mix-blend-mode:normal;fill:url(#Strips1_1);fill-opacity:1.0;stroke:#219E6B;stroke-width:13.2292;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.501543;stroke-opacity:1"
          id="circle2935"
          cx="132.29167"
          cy="132.29167" />
