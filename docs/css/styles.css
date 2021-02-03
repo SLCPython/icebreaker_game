@@ -1,0 +1,12 @@
+
+.card {
+    width: 500px;
+
+    /* shadow */
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
+
+    /* center */
+    display:block;
+    margin:auto;
+}
