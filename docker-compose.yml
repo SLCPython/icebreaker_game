@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  # nginx:
+  #   image:
+
+  web:
+    build: .
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+    ports:
+      - 3000:3000
